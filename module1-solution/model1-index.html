@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<script src="../angular.min.js"></script>
+	<script src="model1-indexJS.js"></script>
+	<title>Module1</title>
+</head>
+<body ng-app="model1Index1">
+	<h1>Module-1 submission By Bhishma Gohel</h1>
+	<div ng-controller="model1IndexController">
+		<div>
+			Lunch items:<input type="text" 
+			placeholder="list comma separated dishes you usually have for lunch"
+			ng-model="string"
+			>
+			<button ng-click="displayNumeric();">Check If Too Much</button>
+		</div>
+		<div>
+			Message for user:{{message}} 
+		</div>
+	</div>
+</body>
+</html>
